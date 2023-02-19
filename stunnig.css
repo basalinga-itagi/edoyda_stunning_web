@@ -1,0 +1,197 @@
+body {
+  box-sizing: border-box;
+  margin: 40px;
+  font-family: sans-serif;
+  background-color: #f5f0f01a;
+}
+
+h1 {
+  color: blue;
+}
+
+.nav-flex-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 80px;
+  /* background-color: black; */
+  align-items: center;
+}
+
+a:link {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.4);
+  font-weight: bold;
+  padding-right: 40px;
+}
+
+a:first-child {
+  color: black;
+  /* border-bottom: 4px solid #8071d0; */
+  padding-right: 40px;
+  text-decoration: underline;
+  text-decoration-style: solid blue;
+  text-decoration-thickness: 4px;
+  text-decoration-color: blue;
+}
+
+a:hover {
+  color: black;
+  text-decoration: underline;
+  text-decoration-style: solid;
+  text-decoration-thickness: 4px;
+  text-decoration-color: blue;
+}
+
+nav button {
+  color: #5243c0;
+  background-color: #ffd8db;
+  border: 1px;
+  border-radius: 24px;
+  width: 140px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-weight: bold;
+}
+
+section {
+  margin: 40px;
+}
+
+pre {
+  font-weight: bold;
+  font-family: sans-serif;
+  font-size: 60px;
+}
+span {
+  color: blue;
+}
+.description {
+  margin-top: 30px;
+  width: 370px;
+}
+section > p {
+  /* width: 100px; */
+  color: rgba(0, 0, 0, 0.6);
+  line-height: 1.5;
+  font-size: 18px;
+}
+
+.section-footer-container {
+  display: flex;
+  /* background-color: red; */
+  width: 540px;
+  align-items: center;
+  /* padding-left: 10px; */
+  /* height: 60px; */
+}
+
+section button {
+  color: #ffffff;
+  /* border: 1px solid #; */
+  /* width: 170px; */
+  background-color: #5243c0;
+  height: 60px;
+  width: 160px;
+  border: 1px solid blue;
+  border-radius: 20px;
+  /* padding: 20px; */
+  /* padding-bottom: 20px; */
+  font-weight: bold;
+}
+
+.card-1 {
+  display: flex;
+  width: 480px;
+  background-color: white;
+  border: 1px solid white;
+  align-items: center;
+  /* padding-left: -20px; */
+  padding: 0px;
+  height: 40px;
+  border-radius: 10px;
+  box-shadow: 10px 10px 40px grey;
+  margin-bottom: 10px;
+}
+
+.card-2 {
+  display: flex;
+  width: 480px;
+  align-items: center;
+  /* padding-left: -20px; */
+  padding: 0px;
+  height: 40px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.card-2:hover {
+  display: flex;
+  width: 480px;
+  background-color: white;
+  border: 1px solid white;
+  align-items: center;
+  /* padding-left: -20px; */
+  /* padding: 0px; */
+  height: 40px;
+  border-radius: 10px;
+  box-shadow: 10px 10px 40px #ccc;
+  margin-bottom: 10px;
+  background-image: url("./images/tick-blue.png");
+  background-repeat: no-repeat;
+  background-position-x: 34px;
+  background-position-y: 4px;
+  color: blue;
+
+  /* margin-bottom: 20px; */
+  /* padding-top: 13px; */
+  /* opacity: 1; */
+}
+.card-2:hover .card-mark-tick {
+  opacity: 0;
+  /* display: hidden; */
+}
+h4 {
+  width: 130px;
+}
+h6 {
+  padding-right: 20px;
+}
+
+.card-2 figure {
+  width: 40px;
+}
+
+.indicator {
+  height: 12px;
+  width: 24px;
+  border-radius: 10px;
+  background-color: #fd6534;
+}
+
+.indicator-1 {
+  height: 12px;
+  width: 24px;
+  border-radius: 10px;
+  background-color: #fed7da;
+}
+
+.indicator-2 {
+  height: 12px;
+  width: 24px;
+  border-radius: 10px;
+  background-color: #9ed095;
+}
+
+.indicator-3 {
+  height: 12px;
+  width: 24px;
+  border-radius: 10px;
+  background-color: #ffe4a0;
+}
+
+.landing-page-container {
+  display: flex;
+  justify-content: space-around;
+}
